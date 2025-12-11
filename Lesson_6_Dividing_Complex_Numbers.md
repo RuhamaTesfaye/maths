@@ -215,6 +215,159 @@ The conjugate trick works because:
 8. ✂️ **Separate** into real and imaginary parts
 9. ✅ **Simplify** fractions if possible
 
+---
+
+## Complete Example: $\frac{-10 + 9i}{3i - 4}$
+
+Let's solve this step by step!
+
+### **Step 1: Understand What a Conjugate Is**
+
+**What is a Conjugate?**
+The **conjugate** of a complex number is the same number but with the **opposite sign** in the imaginary part.
+
+- If you have $(a + bi)$, the conjugate is $(a - bi)$
+- If you have $(a - bi)$, the conjugate is $(a + bi)$
+
+**Examples:**
+- Conjugate of $(3 + 4i)$ is $(3 - 4i)$
+- Conjugate of $(5 - 2i)$ is $(5 + 2i)$
+- Conjugate of $(-4 + 3i)$ is $(-4 - 3i)$
+
+**Why do we use conjugates?**
+When you multiply a complex number by its conjugate, the imaginary parts cancel out, leaving only a real number! This is the magic trick that lets us divide complex numbers.
+
+**For our problem:**
+- Denominator: $(3i - 4)$ which is the same as $(-4 + 3i)$
+- **Conjugate:** $(-4 - 3i)$
+
+---
+
+### **Step 2: Multiply Top and Bottom by the Conjugate**
+
+$$\frac{-10 + 9i}{-4 + 3i} \times \frac{-4 - 3i}{-4 - 3i}$$
+
+**Why?** This equals multiplying by 1, so it doesn't change the value—just the form!
+
+---
+
+### **Step 3: Multiply the Numerator**
+
+$$(-10 + 9i)(-4 - 3i)$$
+
+Use **FOIL** (First, Outer, Inner, Last):
+- **F**: $(-10)(-4) = 40$
+- **O**: $(-10)(-3i) = 30i$
+- **I**: $(9i)(-4) = -36i$
+- **L**: $(9i)(-3i) = -27i^2 = -27(-1) = 27$ (remember $i^2 = -1$!)
+
+Combine: $40 + 30i - 36i + 27 = 67 - 6i$
+
+---
+
+### **Step 4: Multiply the Denominator**
+
+$$(-4 + 3i)(-4 - 3i)$$
+
+This is a **difference of squares**: $(a + b)(a - b) = a^2 - b^2$
+
+$$(-4)^2 - (3i)^2 = 16 - 9i^2 = 16 - 9(-1) = 16 + 9 = 25$$
+
+**Why conjugates work:** The $i$ disappears! We get a real number.
+
+---
+
+### **Step 5: Simplify**
+
+$$\frac{67 - 6i}{25} = \frac{67}{25} - \frac{6}{25}i$$
+
+---
+
+### **Final Answer:**
+$$\frac{67}{25} - \frac{6}{25}i$$
+
+Or in decimal form: **2.68 - 0.24i**
+
+---
+
+### **Key Points from This Example:**
+
+1. **Conjugate**: Change the sign between real and imaginary parts
+   - Always keep the real part the same
+   - Flip the sign of the imaginary part
+
+2. **$i^2 = -1$**: Always replace $i^2$ with $-1$
+
+3. **Why multiply by conjugate?**: It eliminates $i$ from the denominator
+
+4. **Standard form**: Write answer as $a + bi$ (or $a - bi$)
+
+5. **Check your work**: Multiply your answer by the original denominator to verify!
+
+---
+
+## Example with Addition: $-4 + \frac{31}{-2i + 5}$
+
+This problem combines **addition** with **division**. Let's solve it step by step!
+
+### **Step 1: Focus on the Division First**
+
+We need to simplify $\frac{31}{-2i + 5}$ before we can add $-4$.
+
+Rewrite denominator in standard form: $\frac{31}{5 - 2i}$
+
+### **Step 2: Find the Conjugate**
+
+Denominator: $(5 - 2i)$  
+**Conjugate:** $(5 + 2i)$
+
+### **Step 3: Multiply by the Conjugate**
+
+$$\frac{31}{5 - 2i} \times \frac{5 + 2i}{5 + 2i}$$
+
+### **Step 4: Multiply the Numerator**
+
+$$31(5 + 2i) = 155 + 62i$$
+
+### **Step 5: Multiply the Denominator**
+
+$$(5 - 2i)(5 + 2i) = 5^2 - (2i)^2 = 25 - 4i^2 = 25 - 4(-1) = 25 + 4 = 29$$
+
+### **Step 6: Simplify the Fraction**
+
+$$\frac{155 + 62i}{29} = \frac{155}{29} + \frac{62}{29}i$$
+
+### **Step 7: Add $-4$ to the Result**
+
+Now we add $-4$ to our fraction:
+
+$$-4 + \frac{155}{29} + \frac{62}{29}i$$
+
+Convert $-4$ to a fraction with denominator 29:
+
+$$-4 = \frac{-116}{29}$$
+
+Combine the real parts:
+
+$$\frac{-116}{29} + \frac{155}{29} = \frac{39}{29}$$
+
+### **Step 8: Write the Final Answer**
+
+$$\frac{39}{29} + \frac{62}{29}i$$
+
+Or in decimal form: **1.34 + 2.14i**
+
+---
+
+### **Key Steps for Mixed Operations:**
+
+1. **Order of operations**: Simplify division first, then addition
+2. **Keep imaginary and real parts separate**: Only add real to real, imaginary to imaginary
+3. **Common denominators**: When adding, convert all numbers to the same denominator
+4. **Standard form**: Always finish in $a + bi$ form
+
+---
+
 ## Key Takeaways
 
 1. **Multiply by the conjugate** of the denominator
