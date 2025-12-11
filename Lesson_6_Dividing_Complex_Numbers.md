@@ -137,7 +137,36 @@ $$\frac{2}{3 + 4i} \times \frac{3 - 4i}{3 - 4i} = \frac{2(3 - 4i)}{9 + 16} = \fr
 
 **Answer:** $\frac{6}{25} - \frac{8}{25}i$
 
-### Example 3: $\frac{(2 + i)(3 - i)}{1 + 2i}$
+### Example 3: $\frac{3}{5i}$
+
+When dividing by a pure imaginary number, we need to eliminate $i$ from the denominator.
+
+**Step 1:** Rewrite $5i$ in standard form: $0 + 5i$  
+**Conjugate:** $0 - 5i = -5i$
+
+**Step 2:** Multiply by the conjugate:
+
+$$\frac{3}{5i} \times \frac{-5i}{-5i}$$
+
+**Step 3:** Multiply numerator:
+
+$$3 \times (-5i) = -15i$$
+
+**Step 4:** Multiply denominator:
+
+$$5i \times (-5i) = -25i^2 = -25(-1) = 25$$
+
+**Step 5:** Simplify:
+
+$$\frac{-15i}{25} = \frac{-15}{25}i = -\frac{3}{5}i$$
+
+**Answer:** $-\frac{3}{5}i$ or $0 - \frac{3}{5}i$
+
+**Quick Method:** When dividing by $i$, multiply numerator and denominator by $-i$:
+
+$$\frac{3}{5i} \times \frac{-i}{-i} = \frac{-3i}{-5i^2} = \frac{-3i}{5} = -\frac{3}{5}i$$
+
+### Example 4: $\frac{(2 + i)(3 - i)}{1 + 2i}$
 
 **Step 1:** Multiply the numerator first:
 $$(2 + i)(3 - i) = 6 - 2i + 3i - i^2 = 6 + i + 1 = 7 + i$$
@@ -365,6 +394,114 @@ Or in decimal form: **1.34 + 2.14i**
 2. **Keep imaginary and real parts separate**: Only add real to real, imaginary to imaginary
 3. **Common denominators**: When adding, convert all numbers to the same denominator
 4. **Standard form**: Always finish in $a + bi$ form
+
+---
+
+## Example with Parentheses: $\frac{-4 + 31}{-2i + 5}$
+
+This problem has **addition in the numerator** AND a complex denominator. Let's solve it step by step!
+
+### **Step 1: Simplify the Numerator First**
+
+Before dividing, add the numbers in the numerator:
+
+$$-4 + 31 = 27$$
+
+So our problem becomes: $\frac{27}{-2i + 5}$
+
+### **Step 2: Rewrite in Standard Form**
+
+Rewrite denominator as: $\frac{27}{5 - 2i}$
+
+### **Step 3: Find the Conjugate**
+
+Denominator: $(5 - 2i)$  
+**Conjugate:** $(5 + 2i)$
+
+### **Step 4: Multiply by the Conjugate**
+
+$$\frac{27}{5 - 2i} \times \frac{5 + 2i}{5 + 2i}$$
+
+### **Step 5: Multiply the Numerator**
+
+$$27(5 + 2i) = 135 + 54i$$
+
+### **Step 6: Multiply the Denominator**
+
+$$(5 - 2i)(5 + 2i) = 5^2 - (2i)^2 = 25 - 4i^2 = 25 - 4(-1) = 25 + 4 = 29$$
+
+### **Step 7: Write the Final Answer**
+
+$$\frac{135 + 54i}{29} = \frac{135}{29} + \frac{54}{29}i$$
+
+Or in decimal form: **4.66 + 1.86i**
+
+---
+
+### **Comparison: Parentheses Matter!**
+
+Notice the difference:
+- **$-4 + \frac{31}{-2i + 5}$** = $\frac{39}{29} + \frac{62}{29}i$ ≈ **1.34 + 2.14i**
+- **$\frac{-4 + 31}{-2i + 5}$** = $\frac{135}{29} + \frac{54}{29}i$ ≈ **4.66 + 1.86i**
+
+**Why different?**
+- First: Add $-4$ AFTER dividing $31$ by the complex number
+- Second: Add $-4 + 31$ BEFORE dividing by the complex number
+
+**Order of operations matters!**
+
+---
+
+## Example with Complex Numerator: $\frac{-4 + 3i}{-2i + 5}$
+
+Now let's divide a **complex number by another complex number**. Both have real and imaginary parts!
+
+### **Step 1: Rewrite in Standard Form**
+
+Numerator: $-4 + 3i$ (already in standard form)  
+Denominator: $-2i + 5$ → Rewrite as $5 - 2i$
+
+So we have: $\frac{-4 + 3i}{5 - 2i}$
+
+### **Step 2: Find the Conjugate**
+
+Denominator: $(5 - 2i)$  
+**Conjugate:** $(5 + 2i)$
+
+### **Step 3: Multiply by the Conjugate**
+
+$$\frac{-4 + 3i}{5 - 2i} \times \frac{5 + 2i}{5 + 2i}$$
+
+### **Step 4: Multiply the Numerator (Use FOIL)**
+
+$$(-4 + 3i)(5 + 2i)$$
+
+- **F**: $(-4)(5) = -20$
+- **O**: $(-4)(2i) = -8i$
+- **I**: $(3i)(5) = 15i$
+- **L**: $(3i)(2i) = 6i^2 = 6(-1) = -6$
+
+Combine: $-20 - 8i + 15i - 6 = -26 + 7i$
+
+### **Step 5: Multiply the Denominator**
+
+$$(5 - 2i)(5 + 2i) = 5^2 - (2i)^2 = 25 - 4i^2 = 25 - 4(-1) = 25 + 4 = 29$$
+
+### **Step 6: Write the Final Answer**
+
+$$\frac{-26 + 7i}{29} = \frac{-26}{29} + \frac{7}{29}i$$
+
+Or in decimal form: **-0.90 + 0.24i**
+
+---
+
+### **Key Points for Complex ÷ Complex:**
+
+1. **Both numbers can have real and imaginary parts** - the method stays the same!
+2. **Always use FOIL** carefully when multiplying the numerator
+3. **Watch your signs** - negative times negative equals positive
+4. **The denominator always becomes real** when you multiply by the conjugate
+5. **Final form**: $\frac{a}{c} + \frac{b}{c}i$ where $c$ is the real denominator
 
 ---
 
